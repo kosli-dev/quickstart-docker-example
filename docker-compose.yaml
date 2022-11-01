@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  server:
+    container_name: quickstart-nginx
+    restart: always
+    image: nginx:1.22
+    ports:
+      - 8080:80
