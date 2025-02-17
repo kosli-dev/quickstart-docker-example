@@ -1,0 +1,4 @@
+
+trail:
+  artifacts:
+    - name: nginx
